@@ -29,10 +29,10 @@ var main = function() {
   }
 
   function handleText(textNode) {
-		var v = textNode.nodeValue;
-		v = v.replace(/hack/g, "stack");
-		v = v.replace(/Hack/g, "Stack");
-		textNode.nodeValue = v;
+    var v = textNode.nodeValue;
+    v = v.replace(/hack/g, "stack");
+    v = v.replace(/Hack/g, "Stack");
+    textNode.nodeValue = v;
   }
 };
 
